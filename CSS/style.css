@@ -12,13 +12,14 @@ body
 
 p
 { padding: 0 0 16px 0;
-  line-height: 1.7em;}
+  line-height: 1.8em;
+}
 
 img
 { border: 0;}
 
 h1, h2, h3, h4, h5, h6 
-{ font: normal 175% 'century gothic', arial, sans-serif;
+{ font: normal 200% 'century gothic', arial, sans-serif;
   color: #111;
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;}
@@ -64,7 +65,7 @@ ul
 
 ul li
 { list-style-type: circle;
-  margin: 0 0 6px 0; 
+  margin: 0 0 6px 0px; 
   padding: 0 0 4px 5px;}
 
 ol
@@ -120,7 +121,7 @@ ol li
 { width: 1100px;
   height: 35px;
   padding: 8px 0 0 0;
-  margin: -45px 700px 0 0;
+  margin: -45px 90px 0 0;
   position: relative;
   z-index: 1;
   float: right;} 
@@ -132,7 +133,7 @@ ul#menu
 ul#menu li
 { float: left;
   margin: 5px 0 0 0;
-  padding: 0 0 0 6px;
+  padding: 0 0 0 16px;
   list-style: none;}
 
 ul#menu li a
@@ -148,14 +149,27 @@ ul#menu li a
   color: #FFF;
   border: 0;} 
 
+.ID_text
+{
+  font: normal 275% arial, sans-serif;
+}
+
 .Ronde
 {
   border-radius: 50%;
   width: 210px;
 }
+.CentrerBadge
+{
+  text-align: center;
+}
 .LienS
 {
   text-align: center;
+}
+.MOPGA
+{
+  width: 550px;
 }
 .SSSGGboite
 {
@@ -216,7 +230,7 @@ ul#menu li a:hover
 
 #content ul li
 { list-style-type: none;
-  background: url(images/content.jpg) no-repeat;
+  /*background: url(images/content.jpg) no-repeat;*/
   margin: 0 0 6px 0; 
   padding: 0 0 4px 25px;
   line-height: 1.5em;}
