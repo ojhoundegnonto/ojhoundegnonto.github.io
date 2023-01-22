@@ -186,7 +186,8 @@ ul#menu li.selected a
 
 ul#menu li.selected
 { margin: 7px 0 0 0;
-  background: #F8F8F8;}
+  background: #F8F8F8;
+}
 
 ul#menu li a:hover
 { color: #888;}
@@ -324,3 +325,23 @@ table tr td
 { background: #eee;
   color: #555;
   border-top: 1px solid #FFF;}
+
+
+  .row {
+    display: flex;
+    background: #F8F8F8;
+  }
+  .col {
+    flex: 1; 
+    padding: 1em;
+    border: none;
+    text-align:center;
+    padding:1em 0;
+  }
+
+  .Drapeau
+{
+  /*border-radius: 50%;*/
+  width: 30px;
+  height: 20px;
+}
